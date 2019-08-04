@@ -30,9 +30,16 @@ p{
   color: white;
 }
 
-.responsive{
+/* .responsive:hover{
   width: 100%;
   height: auto;
+  /* cursor: pointer;
+  opacity: 1; */
+/* } */ 
+
+.responsive{
+    width: 100%;
+    height: auto;
 }
 
 input[type=text], select, textarea {
