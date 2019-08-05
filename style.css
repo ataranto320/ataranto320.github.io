@@ -103,7 +103,7 @@ input[type=text], select, textarea {
 }
   
 input[type=submit] {
-    background-color: orange;
+    background-color: darkred;
     color: #ffffff;
     padding: 12px 20px;
     border: none;
@@ -112,7 +112,7 @@ input[type=submit] {
 }
   
 input[type=submit]:hover {
-    background-color: orange;
+    background-color: darkred;
 }
 
 label {
