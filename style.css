@@ -42,6 +42,10 @@
     border-left: 0 none;
   } */ 
 
+#navbar{
+  margin-top: -25px;
+}
+
 h2{
     border: 3px;
     background-color: #ffffff;
@@ -57,7 +61,8 @@ h2{
 
 body{
   /* background-image: url(https://i.ytimg.com/vi/pegZ1w5W9N4/maxresdefault.jpg) */
-  background-image: url(https://s3.envato.com/files/218429202/Preview_Image_.jpg)
+  background-image: url(https://s3.envato.com/files/218429202/Preview_Image_.jpg);
+  background-size: 100% 100%;
 }
 
 img{
