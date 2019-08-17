@@ -15,16 +15,16 @@
   /*vertically centers */
 /* } */ 
  
- /* #masthead {
-    position: fixed;
+ #masthead {
+    /* position: fixed; */
     z-index: 99;
     width: 100%;
-    margin: 0 0 30px;
-    overflow: auto;
-    color: red;
+    /* margin: 0 0 30px; */
+    /* overflow: auto; */
+    color: white;
     background: black;
     /* border-bottom: 2px solid black; */
-  /* }
+  }
   
   #logo {
     float: left;
@@ -33,14 +33,14 @@
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 30px;
     font-weight: 700;
-    /* line-height: 90px; */
-    /* color: red;
+    line-height: 90px;
+    color: white;
     text-align: center;
     text-decoration: none;
-    background: black;
-  } */ 
+    /* background: black; */
+  } 
 
-  /* nav {
+  nav {
     float: right;
     margin-top: 25px;
   }
@@ -50,14 +50,14 @@
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
-    color: red;
+    color: white;
     text-decoration: none;
-    border-left: 1px solid black;
-  } */
+    border-left: 1px solid white;
+  }
   
-  /* nav a:first-child {
+  nav a:first-child {
     border-left: 0 none;
-  } */ 
+  } 
 
 #navbar{
   margin-top: -25px;
