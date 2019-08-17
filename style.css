@@ -71,9 +71,15 @@ img{
     padding: 5px;
 }
 
-p{
+p,
+p2{
   color: white;
   /* padding-top: 10px; */
+  /* position: center; */
+}
+
+.col-sm{
+  position: center;
 }
 
 .bottom{
@@ -93,6 +99,7 @@ p{
     width: 400px;
     height: 300px;
     /* height: auto; */
+    position: center;
 }
 
 input[type=text], select, textarea {
@@ -142,6 +149,19 @@ a{
     color: white;
 }
 
+footer,
+.push {
+  height: 105px;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+  position: center;
+}
+
 @media screen and (max-width: 980px) {
   [class="container"]{
       width: 100%;
@@ -183,7 +203,7 @@ a{
        width: 100%;
    }
    h2{
-       position: static;
+    position: static;
    }
    [class="col-sm"]{
     width: 100%;
