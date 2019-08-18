@@ -68,8 +68,11 @@ h2{
     background-color: #ffffff;
     color: red;
     padding: 5px;
-    
 }
+
+/* h3{
+  text-align: center;
+} */
 
 #me{
     float: left;
@@ -78,8 +81,14 @@ h2{
 
 body{
   /* background-image: url(https://i.ytimg.com/vi/pegZ1w5W9N4/maxresdefault.jpg) */
-  background-image: url(https://s3.envato.com/files/218429202/Preview_Image_.jpg);
+  background-image: url(https://cdn.hipwallpaper.com/i/17/88/xQlreO.jpg);
   background-size: 100% 100%;
+  animation: animatedBackground 45s linear infinite;
+}
+
+@keyframes animatedBackground {
+  from { background-position: 0 0; }
+  to { background-position: 100% 0; }
 }
 
 img{
@@ -136,7 +145,7 @@ input[type=text], select, textarea {
 }
   
 input[type=submit] {
-    background-color: darkred;
+    background-color: darkblue;
     color: #ffffff;
     padding: 12px 20px;
     border: none;
