@@ -63,12 +63,12 @@
   margin-top: -25px;
 }
 
-h2{
+/* h2{
     border: 3px;
     background-color: #ffffff;
     color: red;
     padding: 5px;
-}
+} */
 
 /* h3{
   text-align: center;
@@ -151,7 +151,7 @@ input[type=text], select, textarea {
 }
   
 input[type=submit] {
-    background-color: darkblue;
+    background-color: turquoise;
     color: #ffffff;
     padding: 12px 20px;
     border: none;
