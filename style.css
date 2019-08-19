@@ -82,14 +82,20 @@ h2{
 body{
   /* background-image: url(https://i.ytimg.com/vi/pegZ1w5W9N4/maxresdefault.jpg) */
   background-image: url(https://cdn.hipwallpaper.com/i/17/88/xQlreO.jpg);
-  background-size: 100% 100%;
-  animation: animatedBackground 45s linear infinite;
+  /* background-size: 100% 100%; */
+  animation: animatedBackground 10s linear infinite;
 }
 
 @keyframes animatedBackground {
   from { background-position: 0 0; }
   to { background-position: 100% 0; }
 }
+
+@-webkit-keyframes animatedBackground {
+  from { background-position: 0 0; }
+  to {background-position: 100% 0; }
+}
+
 
 img{
     height: 175px;
