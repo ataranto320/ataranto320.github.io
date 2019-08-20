@@ -82,7 +82,7 @@
 body{
   /* background-image: url(https://i.ytimg.com/vi/pegZ1w5W9N4/maxresdefault.jpg) */
   background-image: url(https://cdn.hipwallpaper.com/i/17/88/xQlreO.jpg);
-  /* background-size: 100% 100%; */
+  /* background-size: cover; */
   animation: animatedBackground 10s linear infinite;
 }
 
