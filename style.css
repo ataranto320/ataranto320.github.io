@@ -109,6 +109,11 @@ p{
   /* position: center; */
 }
 
+pp{
+  color: white;
+  font-size: 12px;
+}
+
 .footer-text{
   color: white;
   padding-top: 30px;
