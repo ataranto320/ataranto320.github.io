@@ -81,8 +81,10 @@
 
 body{
   /* background-image: url(https://i.ytimg.com/vi/pegZ1w5W9N4/maxresdefault.jpg) */
-  background-image: url(https://cdn.hipwallpaper.com/i/17/88/xQlreO.jpg);
-  /* background-size: cover; */
+  /* background-image: url(https://cdn.hipwallpaper.com/i/17/88/xQlreO.jpg); */
+  background-image: url(https://i.pinimg.com/originals/44/4e/2b/444e2bbbdaf64bd16d29c38f734e62a3.jpg);
+  background-size: cover;
+  background-repeat: repeat-x;
   animation: animatedBackground 10s linear infinite;
 }
 
@@ -112,6 +114,7 @@ p{
 pp{
   color: white;
   font-size: 12px;
+  /* padding-bottom: 5px; */
 }
 
 .footer-text{
@@ -196,7 +199,7 @@ ul{
     color: white;
 }
 
-#links2{
+/* #links2{
   color: white;
   padding-top: 40px;
 }
@@ -204,7 +207,7 @@ ul{
 #links3{
   color: white;
   padding-top: 40px;
-}
+} */
 
 a{
     color: white;
