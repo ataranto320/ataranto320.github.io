@@ -109,6 +109,8 @@ p{
   color: white;
   /* padding-top: 10px; */
   /* position: center; */
+  /* padding-right: 5px;
+  margin-right: 5px; */
 }
 
 pp{
@@ -160,7 +162,7 @@ input[type=text], select, textarea {
 }
   
 input[type=submit] {
-    background-color: teal;
+    background-color: lightslategrey;
     color: #ffffff;
     padding: 12px 20px;
     border: none;
@@ -169,7 +171,7 @@ input[type=submit] {
 }
   
 input[type=submit]:hover {
-    background-color: turquoise;
+    background-color: lightsteelblue;
 }
 
 label {
@@ -180,6 +182,7 @@ ul{
   padding-right: 5px;
   padding-left: 5px;
   color: white;
+  /* font-size: 18px; */
 }
 
 #projects{
@@ -212,6 +215,7 @@ ul{
 
 a{
     color: white;
+    /* font-size: 18px; */
 }
 
 footer{
