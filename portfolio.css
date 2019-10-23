@@ -1,0 +1,280 @@
+/* html {
+  position: relative;
+  /*for sticky footer */
+  /* min-height: 100%;
+  /*for sticky footer */
+  /* min-width: 100%;
+} */ 
+
+/* footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10px;
+  line-height: 10px; */
+  /*vertically centers */
+/* } */ 
+ 
+#masthead {
+    /* position: fixed; */
+    z-index: 99;
+    width: 100%;
+    /* margin: 0 0 30px; */
+    /* overflow: auto; */
+    color: white;
+    background: black;
+    /* border-bottom: 2px solid black; */
+  }
+  
+  #logo {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    /* background: black; */
+  } 
+
+  nav {
+    float: right;
+    margin-top: 25px;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: white;
+    text-decoration: none;
+    border-left: 1px solid white;
+  }
+  
+  nav a:first-child {
+    border-left: 0 none;
+  } 
+
+#navbar{
+  margin-top: -25px;
+}
+
+/* h2{
+    border: 3px;
+    background-color: #ffffff;
+    color: red;
+    padding: 5px;
+} */
+
+/* h3{
+  text-align: center;
+} */
+
+#me{
+    float: left;
+    margin: 2px;
+}
+
+body{
+  /* background-image: url(https://i.ytimg.com/vi/pegZ1w5W9N4/maxresdefault.jpg) */
+  /* background-image: url(https://cdn.hipwallpaper.com/i/17/88/xQlreO.jpg); */
+  background-image: url(https://i.pinimg.com/originals/44/4e/2b/444e2bbbdaf64bd16d29c38f734e62a3.jpg);
+  background-size: cover;
+  background-repeat: repeat-x;
+  animation: animatedBackground 10s linear infinite;
+}
+
+@keyframes animatedBackground {
+  from { background-position: 0 0; }
+  to { background-position: 100% 0; }
+}
+
+@-webkit-keyframes animatedBackground {
+  from { background-position: 0 0; }
+  to {background-position: 100% 0; }
+}
+
+
+img{
+    height: 300px;
+    width: 250px;
+    padding: 5px;
+}
+
+p{
+  color: white;
+  /* padding-top: 10px; */
+  /* position: center; */
+  /* padding-right: 5px;
+  margin-right: 5px; */
+}
+
+pp{
+  color: white;
+  font-size: 12px;
+  /* padding-bottom: 5px; */
+}
+
+.footer-text{
+  color: white;
+  padding-top: 30px;
+}
+
+.col-sm{
+  position: center;
+}
+
+.bottom{
+  color: white;
+  size: 50px;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* .responsive:hover{
+  width: 100%;
+  height: auto;
+  /* cursor: pointer;
+  opacity: 1; */
+/* } */ 
+
+.responsive{
+    width: 400px;
+    height: 300px;
+    /* height: auto; */
+    position: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-color: #dddddd;
+}
+  
+input[type=submit] {
+    background-color: lightslategrey;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: lightsteelblue;
+}
+
+label {
+  color: white;
+}
+
+ul{
+  padding-right: 5px;
+  padding-left: 5px;
+  color: white;
+  /* font-size: 18px; */
+}
+
+#projects{
+    color: white;
+}
+
+#personal{
+  color: white;
+  font-size: 12px;
+}
+
+#skills{
+  color: white;
+  font-size: 12px;
+}
+
+#links{
+    color: white;
+}
+
+/* #links2{
+  color: white;
+  padding-top: 40px;
+}
+
+#links3{
+  color: white;
+  padding-top: 40px;
+} */
+
+a{
+    color: white;
+    /* font-size: 18px; */
+}
+
+footer{
+  height: 105px;
+  position: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+  position: center;
+}
+
+@media screen and (max-width: 980px) {
+  [class="container"]{
+      width: 100%;
+  }
+  [id="main-bio "]{
+      width: 100%;
+  }
+  [id="me"]{
+      width: 100%;
+  }
+  [class="col-sm"]{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+   [class="container"]{
+       width: 100%;
+   }
+   [id="main-bio "]{
+       width: 100%;
+   }
+   [id="me"]{
+       width: 100%;
+   }
+   [class="col-sm"]{
+     width: 100%;
+   }
+}
+
+@media screen and (max-width: 640px) {
+   [class="container"]{
+       width: 100%;
+   }
+   [id="main-bio "]{
+       width: 100%;
+   }
+   [id="me"]{
+       width: 100%;
+   }
+   h2{
+    position: static;
+   }
+   [class="col-sm"]{
+    width: 100%;
+  }
+}
