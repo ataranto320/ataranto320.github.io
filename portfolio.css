@@ -107,16 +107,12 @@ img{
 
 p{
   color: white;
+  font-size: 14px;
   /* padding-top: 10px; */
   /* position: center; */
   /* padding-right: 5px;
   margin-right: 5px; */
-}
-
-pp{
-  color: white;
-  font-size: 12px;
-  /* padding-bottom: 5px; */
+  padding-bottom: 5px;
 }
 
 .footer-text{
