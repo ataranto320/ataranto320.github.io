@@ -13,6 +13,8 @@ Deployed Link: https://ataranto320.github.io/
 
 Always a work in progress.
 
+Languages:
+
 - HTML5
 - CSS
 - JavaScript
