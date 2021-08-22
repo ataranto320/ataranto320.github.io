@@ -7,7 +7,7 @@ Personal and professional page for all information related to my work. Allows us
 - Portfolio Page
 - Contact Page
 
-![](pics/portfolio2.png)
+![](pics/portfolio.png)
 
 Deployed Link: https://ataranto320.github.io/
 
